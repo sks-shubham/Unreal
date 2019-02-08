@@ -11,3 +11,4 @@ BuildingEscapeGame/.vs/BuildingEscapeGame/v15/Solution.VC.db-wal
 BuildingEscapeGame/.vs/BuildingEscapeGame/v15/Solution.VC.db-shm
 BuildingEscapeGame/.vs/BuildingEscapeGame/v15/Browse.VC.opendb
 BuildingEscapeGame/.vs/BuildingEscapeGame/v15/ipch/AutoPCH/75ad72b0d887257c/POSITIONREPORT.ipch
+*.ipch
