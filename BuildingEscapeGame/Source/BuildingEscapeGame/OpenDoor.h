@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Engine/TriggerVolume.h"
 #include "OpenDoor.generated.h"
-#include <Engine/TriggerVolume.h>
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BUILDINGESCAPEGAME_API UOpenDoor : public UActorComponent
@@ -29,6 +29,6 @@ private:
 		float OpenAngle = 90.f;
 
 	UPROPERTY(EditAnywhere)
-		ATriggerVolume *UOpenDoor::PressurePlate;
+		ATriggerVolume *PressurePlate;
 
 };
